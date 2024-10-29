@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+body {
+    background-color: #FF9D3D;
+}
+
+.cabecalho {
+    background-color: #FFBD73;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__leo {
+    width: 23%;
+}
+
+.cabecalho__p {
+    font-size: 30px;
+    font-family: "PT Sans Narrow", serif;
+}
+
+.ists__titulo {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Krona One", sans-serif;
+    padding: 20px;
+}
+.ists__titulo__texto {
+    font-size: 30px;
+    font-family: "PT Sans Narrow", serif;
+    text-align: center;
+}
+.ists__titulo__lista {
+    padding: 7px;
+    font-size: 25px;
+    font-family: "PT Sans Narrow", serif;
+    text-align: center;
+}
+.ists__titulo__definicao {
+    font-family: "PT Sans Narrow", serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rodape {
+    padding: 2px;
+}
+
+.ists__titulo__grupo {
+    font-family: "PT Sans Narrow", serif;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.div__imagem {
+    text-align: center;
+}
+
+.imagem__sifilis {
+    width: 50%;
+}
+
+.imagem__gonorreia {
+    width: 50%;
+}
+
+.imagem__hiv {
+    width: 50%;
+}
+
+.imagem_sistemas {
+    width: 100%;
+}
+
+@media (min-width: 800px) { 
+    .cabecalho__leo {
+        width: 8%;
+    }
+    .introducao__ists {
+        display: flex;
+        justify-content: center;
+        gap: 20%;
+    }
+    .ists__titulo {
+    padding: 20px;
+    }
+    .imagem__sifilis {
+        width: 70%;
+
+    }
+    .sifilis__textos {
+        display: flex;
+        flex-direction: column;
+    }
+    .sifilis__gonorreia {
+        display: flex;
+        padding-left: 20%;
+        gap: 20%;
+    }
+    .imagem__gonorreia {
+        width: 50%;
+    }
+    .trico__hiv {
+        display: flex;
+        padding-left: 13%;
+        gap: 17%;
+    }
+    .imagem_sistemas {
+        width: 60%;
+    }
+    .vagina__uter {
+        display: flex;
+        padding-left: 15%;
+        gap: 37%;
+    }
+    .cluter__ov {
+        display: flex;
+        padding-left: 10%;
+        gap: 29%;
+    }
+    .tub__mio {
+        display: flex;
+        padding-left: 16%;
+        gap: 36%;
+    }
+    .du__glan {
+        display: flex;
+        padding-left: 9%;
+        gap: 33%;
+    }
+    .pros__ure {
+        display: flex;
+        padding-left: 11%;
+        gap: 46%;
+    }
+    .ves__tes {
+        display: flex;
+        padding-left: 5%;
+        gap: 38%;
+    }
+    .duc__epi {
+        display: flex;
+        padding-left: 10%;
+        gap: 46%;
+    }
+}
